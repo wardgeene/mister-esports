@@ -1,0 +1,59 @@
+$mobile-only: "only screen and (max-width : 768px)";
+
+#header {
+  background-color: #fff;
+  color: #333;
+  padding: 6px 0;
+  line-height: 18px;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  font-family: sans-serif;
+  border-bottom: solid 2px;
+  border-color: #999;
+
+  @media #{$mobile-only} {
+    position: fixed;
+    top: 0;
+  }
+
+  a {
+    display: inline;
+  }
+}
+
+h1 {
+  font-weight: bolder;
+  display: inline-block;
+  margin: 0;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.name {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.payoff {
+  display: inline-block;
+  margin-left: 21px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.admin {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  @media #{$mobile-only} {
+    display: none;
+  }
+
+}
