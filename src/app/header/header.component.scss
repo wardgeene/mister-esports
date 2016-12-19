@@ -10,7 +10,7 @@ $mobile-only: "only screen and (max-width : 768px)";
   z-index: 1;
   width: 100%;
   font-family: sans-serif;
-  border-bottom: solid 2px;
+  border-bottom: solid 1px;
   border-color: #999;
 
   @media #{$mobile-only} {
